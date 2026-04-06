@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google"
+import { Fraunces, Geist_Mono, Manrope } from "next/font/google"
 
 import "./globals.css"
 import { PlaygroundCommandMenu } from "@/components/playground/command-menu"
@@ -6,7 +6,17 @@ import { ThemeProvider } from "@/components/theme-provider"
 import { Toaster } from "@/components/ui/sonner"
 import { cn } from "@/lib/utils"
 
-const geist = Geist({subsets:['latin'],variable:'--font-sans'})
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
+})
+
+const manrope = Manrope({
+  subsets: ["latin"],
+  variable: "--font-sans",
+  display: "swap",
+})
 
 const fontMono = Geist_Mono({
   subsets: ["latin"],
@@ -22,9 +32,15 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      className={cn("antialiased", fontMono.variable, "font-sans", geist.variable)}
+      className={cn(
+        "antialiased",
+        fontMono.variable,
+        manrope.variable,
+        fraunces.variable,
+        "font-sans",
+      )}
     >
-      <body>
+      <body className="playground-body min-h-svh">
         <ThemeProvider>
           {children}
           <PlaygroundCommandMenu />
