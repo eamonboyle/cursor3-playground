@@ -127,3 +127,14 @@
     @apply font-sans;
     }
 }
+
+@media print {
+  .recipe-print-hide {
+    display: none !important;
+  }
+
+  .recipe-print-root {
+    background: white !important;
+    color: black !important;
+  }
+}

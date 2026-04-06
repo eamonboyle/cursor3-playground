@@ -36,4 +36,46 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
       "Save URLs with Open Graph previews fetched through a Next.js Route Handler.",
     kind: "api",
   },
+  {
+    href: "/recipes",
+    title: "Recipe scaler",
+    description:
+      "Scale a demo recipe by servings, print a clean sheet, pure client math.",
+    kind: "client",
+  },
+  {
+    href: "/crm",
+    title: "Tiny CRM",
+    description:
+      "Search contact cards, edit details in a sheet, tags and notes in localStorage.",
+    kind: "client",
+  },
+  {
+    href: "/notes",
+    title: "Markdown notes",
+    description:
+      "Sidebar note list, editor, and export to a .md file from the browser.",
+    kind: "client",
+  },
+  {
+    href: "/rsvp",
+    title: "Event RSVP",
+    description:
+      "Public form posts to POST /api/rsvp (in-memory until server restart).",
+    kind: "api",
+  },
+  {
+    href: "/rsvp/host",
+    title: "RSVP host dashboard",
+    description:
+      "GET /api/rsvp summary chart and response table for the demo event.",
+    kind: "api",
+  },
+  {
+    href: "/ui",
+    title: "UI gallery",
+    description:
+      "Tabs of live shadcn samples with copy-to-clipboard JSX snippets.",
+    kind: "client",
+  },
 ]
