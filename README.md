@@ -39,6 +39,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/focus` | Client | Pomodoro timer, sliders, task list |
 | `/links` | API | `POST /api/links/preview` — Open Graph preview + saved links |
 | `/recipes` | Client | Servings slider, scaled ingredients, print stylesheet |
+| `/epoch` | API | Time parsing UI + `GET /api/time` (server clock JSON) |
 | `/crm` | Client | Search, cards, sheet editor, tags |
 | `/notes` | Client | Sidebar layout, markdown-ish notes, export `.md` |
 | `/rsvp` | API | `POST /api/rsvp` — in-memory RSVP (resets on cold start) |
@@ -53,6 +54,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 
 | Method | Path | Role |
 |--------|------|------|
+| `GET` | `/api/time` | JSON server `iso` + `unixMs` for clock skew demos |
 | `POST` | `/api/links/preview` | Fetch a URL server-side and return OG title/description/image |
 | `POST` | `/api/rsvp` | Append an RSVP to in-memory storage |
 | `GET` | `/api/rsvp` | JSON summary + entries for the host dashboard |

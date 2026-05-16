@@ -44,6 +44,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/epoch",
+    title: "Epoch lab",
+    description:
+      "Parse Unix seconds or ms and ISO strings; GET /api/time returns server time for skew checks.",
+    kind: "api",
+  },
+  {
     href: "/crm",
     title: "Tiny CRM",
     description:
