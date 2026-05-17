@@ -30,6 +30,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/ids",
+    title: "ID lab",
+    description:
+      "Bulk-generate UUIDs, hex secrets, and URL-safe tokens; copy with one click.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
