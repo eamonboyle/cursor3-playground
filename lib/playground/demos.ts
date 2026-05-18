@@ -37,6 +37,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/contrast",
+    title: "Contrast checker",
+    description:
+      "WCAG contrast ratio, AA and AAA pass rows, and a live text preview from hex pairs.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
