@@ -30,6 +30,27 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/stopwatch",
+    title: "Stopwatch",
+    description:
+      "Count-up timer with centisecond display, lap table, Space to run or pause, and copy splits as TSV.",
+    kind: "client",
+  },
+  {
+    href: "/ids",
+    title: "ID lab",
+    description:
+      "Bulk-generate UUIDs, hex secrets, and URL-safe tokens; copy with one click.",
+    kind: "client",
+  },
+  {
+    href: "/contrast",
+    title: "Contrast checker",
+    description:
+      "WCAG contrast ratio, AA and AAA pass rows, and a live text preview from hex pairs.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
