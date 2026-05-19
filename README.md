@@ -37,6 +37,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/finance` | Client | Budgets, transactions, charts, tabs, `localStorage` |
 | `/habits` | Client | Calendar, streaks, habits |
 | `/focus` | Client | Pomodoro timer, sliders, task list |
+| `/stopwatch` | Client | Count-up timer, `requestAnimationFrame` display, lap splits, keyboard |
 | `/links` | API | `POST /api/links/preview` — Open Graph preview + saved links |
 | `/recipes` | Client | Servings slider, scaled ingredients, print stylesheet |
 | `/crm` | Client | Search, cards, sheet editor, tags |
