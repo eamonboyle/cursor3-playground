@@ -72,6 +72,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "api",
   },
   {
+    href: "/cron",
+    title: "Cron lab",
+    description:
+      "Validate five-field cron strings, split fields, and preview the next ten run times in local or UTC.",
+    kind: "client",
+  },
+  {
     href: "/crm",
     title: "Tiny CRM",
     description:
