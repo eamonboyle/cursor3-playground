@@ -41,6 +41,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/links` | API | `POST /api/links/preview` — Open Graph preview + saved links |
 | `/recipes` | Client | Servings slider, scaled ingredients, print stylesheet |
 | `/epoch` | API | Time parsing UI + `GET /api/time` (server clock JSON) |
+| `/cron` | Client | Cron expression validation and next-run preview (local or UTC) |
 | `/crm` | Client | Search, cards, sheet editor, tags |
 | `/notes` | Client | Sidebar layout, markdown-ish notes, export `.md` |
 | `/rsvp` | API | `POST /api/rsvp` — in-memory RSVP (resets on cold start) |
