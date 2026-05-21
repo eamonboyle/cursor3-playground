@@ -43,6 +43,9 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/epoch` | API | Time parsing UI + `GET /api/time` (server clock JSON) |
 | `/cron` | Client | Cron expression validation and next-run preview (local or UTC) |
 | `/crm` | Client | Search, cards, sheet editor, tags |
+| `/ids` | Client | UUID, hex, and URL-safe token generation |
+| `/contrast` | Client | WCAG contrast ratio from hex color pairs |
+| `/json` | Client | JSON validate, format, minify, structure stats |
 | `/notes` | Client | Sidebar layout, markdown-ish notes, export `.md` |
 | `/rsvp` | API | `POST /api/rsvp` — in-memory RSVP (resets on cold start) |
 | `/rsvp/host` | API | `GET /api/rsvp` — counts chart + table |

@@ -51,6 +51,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/json",
+    title: "JSON lab",
+    description:
+      "Validate, format, and minify JSON with tree stats, error line hints, and localStorage.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
