@@ -44,6 +44,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/branch",
+    title: "Branch name lab",
+    description:
+      "Slugify feature titles into git-safe branch names with optional feat, fix, chore, or cursor prefixes.",
+    kind: "client",
+  },
+  {
     href: "/contrast",
     title: "Contrast checker",
     description:

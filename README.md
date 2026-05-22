@@ -44,6 +44,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/cron` | Client | Cron expression validation and next-run preview (local or UTC) |
 | `/crm` | Client | Search, cards, sheet editor, tags |
 | `/ids` | Client | UUID, hex, and URL-safe token generation |
+| `/branch` | Client | Slugify titles into git-safe branch names (feat/, cursor/, etc.) |
 | `/contrast` | Client | WCAG contrast ratio from hex color pairs |
 | `/json` | Client | JSON validate, format, minify, structure stats |
 | `/notes` | Client | Sidebar layout, markdown-ish notes, export `.md` |
