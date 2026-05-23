@@ -42,7 +42,7 @@ export default function RootLayout({
     >
       <body className="playground-body min-h-svh">
         <ThemeProvider>
-          {children}
+          <div className="playground-shell">{children}</div>
           <PlaygroundCommandMenu />
           <Toaster position="top-center" richColors closeButton />
         </ThemeProvider>

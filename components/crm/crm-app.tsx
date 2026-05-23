@@ -111,6 +111,7 @@ export function CrmApp() {
         tags,
       }
       setContacts((prev) => [...prev, c])
+      setQuery("")
       toast.success("Contact added.")
     } else {
       setContacts((prev) =>
@@ -223,7 +224,9 @@ export function CrmApp() {
 
       {filtered.length === 0 ? (
         <p className="text-center text-sm text-muted-foreground">
-          No contacts match your search.
+          {query.trim()
+            ? "No contacts match your search."
+            : "No contacts yet. Use New contact to add one."}
         </p>
       ) : null}
 
