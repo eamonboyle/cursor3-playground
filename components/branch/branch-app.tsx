@@ -46,6 +46,17 @@ const PREFIX_LABELS: Record<BranchPrefix, string> = {
   cursor: "cursor/",
 }
 
+/** Radix Select reserves "" for clearing; map no-prefix to a sentinel in the UI. */
+const NO_PREFIX_SELECT_VALUE = "none"
+
+function prefixToSelectValue(prefix: BranchPrefix) {
+  return prefix || NO_PREFIX_SELECT_VALUE
+}
+
+function selectValueToPrefix(value: string): BranchPrefix {
+  return value === NO_PREFIX_SELECT_VALUE ? "" : (value as BranchPrefix)
+}
+
 export function BranchApp() {
   const [persist, setPersist] = React.useState<BranchPersisted>(() =>
     defaultBranchPersisted(),
@@ -162,8 +173,8 @@ export function BranchApp() {
             <FieldLabel>Prefix</FieldLabel>
             <FieldContent>
               <Select
-                value={persist.prefix}
-                onValueChange={(v) => setPrefix(v as BranchPrefix)}
+                value={prefixToSelectValue(persist.prefix)}
+                onValueChange={(v) => setPrefix(selectValueToPrefix(v))}
               >
                 <SelectTrigger className="w-full sm:w-48">
                   <SelectValue />
@@ -171,7 +182,10 @@ export function BranchApp() {
                 <SelectContent>
                   {(Object.keys(PREFIX_LABELS) as BranchPrefix[]).map(
                     (key) => (
-                      <SelectItem key={key || "none"} value={key}>
+                      <SelectItem
+                        key={key || NO_PREFIX_SELECT_VALUE}
+                        value={prefixToSelectValue(key)}
+                      >
                         {PREFIX_LABELS[key]}
                       </SelectItem>
                     ),

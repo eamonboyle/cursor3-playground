@@ -65,6 +65,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/patch",
+    title: "Patch lab",
+    description:
+      "Paste unified diff output for per-file +/− counts, binary flags, and a copyable markdown summary.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:

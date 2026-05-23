@@ -22,6 +22,7 @@ Other scripts:
 | `pnpm build` | Production build |
 | `pnpm start` | Run production server |
 | `pnpm typecheck` | TypeScript (`tsc --noEmit`) |
+| `pnpm test` | Node test runner (`lib/**/*.test.ts`) |
 | `pnpm lint` | ESLint |
 | `pnpm format` | Prettier (TS/TSX) |
 
@@ -47,6 +48,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/branch` | Client | Slugify titles into git-safe branch names (feat/, cursor/, etc.) |
 | `/contrast` | Client | WCAG contrast ratio from hex color pairs |
 | `/json` | Client | JSON validate, format, minify, structure stats |
+| `/patch` | Client | Unified diff stats—files changed, +/− lines, binary flags |
 | `/notes` | Client | Sidebar layout, markdown-ish notes, export `.md` |
 | `/rsvp` | API | `POST /api/rsvp` — in-memory RSVP (resets on cold start) |
 | `/rsvp/host` | API | `GET /api/rsvp` — counts chart + table |
