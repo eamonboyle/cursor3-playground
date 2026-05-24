@@ -46,6 +46,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/crm` | Client | Search, cards, sheet editor, tags |
 | `/ids` | Client | UUID, hex, and URL-safe token generation |
 | `/branch` | Client | Slugify titles into git-safe branch names (feat/, cursor/, etc.) |
+| `/commit` | Client | Conventional Commits linter — type, scope, subject length, body wrap |
 | `/contrast` | Client | WCAG contrast ratio from hex color pairs |
 | `/json` | Client | JSON validate, format, minify, structure stats |
 | `/patch` | Client | Unified diff stats—files changed, +/− lines, binary flags |
