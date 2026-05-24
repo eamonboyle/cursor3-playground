@@ -51,6 +51,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/commit",
+    title: "Commit message lab",
+    description:
+      "Lint Conventional Commits — subject length, body wrap, breaking-change footers, and copyable reports.",
+    kind: "client",
+  },
+  {
     href: "/contrast",
     title: "Contrast checker",
     description:
