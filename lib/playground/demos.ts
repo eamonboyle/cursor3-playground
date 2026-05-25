@@ -79,6 +79,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/glob",
+    title: "Glob scope lab",
+    description:
+      "Paste repo paths and glob patterns with ! excludes to preview agent, test, or ignore-file scope.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
