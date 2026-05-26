@@ -86,6 +86,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/env",
+    title: "Env key diff",
+    description:
+      "Compare .env.example vs local env by key — missing, extra, and value mismatches with masked secrets.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
