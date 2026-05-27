@@ -93,6 +93,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/stack",
+    title: "Stack trace lab",
+    description:
+      "Parse error stacks into file:line frames — filter node_modules, dedupe, copy paths for Cursor.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
