@@ -53,6 +53,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/glob` | Client | Glob include/exclude scope preview over pasted repo paths |
 | `/env` | Client | Diff .env.example vs local env keys — missing, extra, value mismatches |
 | `/stack` | Client | Parse stack traces into file:line frames — filter node_modules, copy paths |
+| `/todo` | Client | Scan ripgrep output for TODO/FIXME/HACK/XXX/BUG markers — counts and copyable paths |
 | `/notes` | Client | Sidebar layout, markdown-ish notes, export `.md` |
 | `/rsvp` | API | `POST /api/rsvp` — in-memory RSVP (resets on cold start) |
 | `/rsvp/host` | API | `GET /api/rsvp` — counts chart + table |

@@ -100,6 +100,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/todo",
+    title: "TODO marker lab",
+    description:
+      "Paste ripgrep output for TODO, FIXME, HACK, XXX, and BUG — grouped counts and copyable file:line paths.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
