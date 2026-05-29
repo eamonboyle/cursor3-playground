@@ -107,6 +107,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/import",
+    title: "Import path lab",
+    description:
+      "Compute relative and @/ alias import strings when moving files or fixing broken imports after a refactor.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
