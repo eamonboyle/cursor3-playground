@@ -55,6 +55,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/stack` | Client | Parse stack traces into file:line frames — filter node_modules, copy paths |
 | `/todo` | Client | Scan ripgrep output for TODO/FIXME/HACK/XXX/BUG markers — counts and copyable paths |
 | `/import` | Client | Relative and `@/` alias import paths between two repo files — refactor helper |
+| `/rename` | Client | Apply rename rules to paths, ripgrep lines, or stack frames after moving files |
 | `/notes` | Client | Sidebar layout, markdown-ish notes, export `.md` |
 | `/rsvp` | API | `POST /api/rsvp` — in-memory RSVP (resets on cold start) |
 | `/rsvp/host` | API | `GET /api/rsvp` — counts chart + table |
