@@ -114,6 +114,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/rename",
+    title: "Rename map lab",
+    description:
+      "Apply file-move rules to pasted paths, ripgrep hits, or stack frames — copy rewritten lines after a refactor.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
