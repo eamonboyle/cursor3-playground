@@ -58,6 +58,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/semver",
+    title: "Semver lab",
+    description:
+      "Validate semver strings, compare versions with prerelease ordering, and preview major, minor, patch, or prerelease bumps.",
+    kind: "client",
+  },
+  {
     href: "/contrast",
     title: "Contrast checker",
     description:
