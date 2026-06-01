@@ -121,6 +121,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/whitespace",
+    title: "Whitespace lab",
+    description:
+      "Scan snippets for mixed line endings, trailing spaces, tab vs space indent, and invisible Unicode.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
