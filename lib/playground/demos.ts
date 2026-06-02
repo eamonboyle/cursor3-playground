@@ -128,6 +128,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/semver",
+    title: "Semver lab",
+    description:
+      "Compare versions, check npm ^ and ~ ranges, and sort pasted dependency lists with prerelease ordering.",
+    kind: "client",
+  },
+  {
     href: "/links",
     title: "Link organizer",
     description:
