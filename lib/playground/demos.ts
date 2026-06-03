@@ -128,6 +128,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/citation",
+    title: "Citation lab",
+    description:
+      "Build ```start:end:filepath fences from ripgrep hits—validate ranges and copy agent-ready code citations.",
+    kind: "client",
+  },
+  {
     href: "/semver",
     title: "Semver lab",
     description:
