@@ -100,6 +100,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/tsc",
+    title: "TypeScript diagnostic lab",
+    description:
+      "Paste tsc or pnpm typecheck output — group TS error codes, filter node_modules, copy file:line paths.",
+    kind: "client",
+  },
+  {
     href: "/todo",
     title: "TODO marker lab",
     description:
