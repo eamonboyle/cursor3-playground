@@ -53,6 +53,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/glob` | Client | Glob include/exclude scope preview over pasted repo paths |
 | `/env` | Client | Diff .env.example vs local env keys — missing, extra, value mismatches |
 | `/stack` | Client | Parse stack traces into file:line frames — filter node_modules, copy paths |
+| `/tsc` | Client | Parse `tsc` / `pnpm typecheck` output — TS codes, file:line paths, node_modules filter |
 | `/todo` | Client | Scan ripgrep output for TODO/FIXME/HACK/XXX/BUG markers — counts and copyable paths |
 | `/import` | Client | Relative and `@/` alias import paths between two repo files — refactor helper |
 | `/rename` | Client | Apply rename rules to paths, ripgrep lines, or stack frames after moving files |
