@@ -107,6 +107,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/eslint",
+    title: "ESLint diagnostic lab",
+    description:
+      "Paste eslint or pnpm lint output — group by rule id, filter node_modules, copy file:line paths.",
+    kind: "client",
+  },
+  {
     href: "/todo",
     title: "TODO marker lab",
     description:
