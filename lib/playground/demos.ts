@@ -114,6 +114,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/test",
+    title: "Test output lab",
+    description:
+      "Paste pnpm test, Vitest, or Jest logs — group failures by file, filter node_modules, copy file:line paths.",
+    kind: "client",
+  },
+  {
     href: "/todo",
     title: "TODO marker lab",
     description:
