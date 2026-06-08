@@ -58,6 +58,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/conflict",
+    title: "Merge conflict lab",
+    description:
+      "Paste conflicted files — list blocks, detect malformed markers, copy start:end:filepath citations and ours/theirs sides.",
+    kind: "client",
+  },
+  {
     href: "/contrast",
     title: "Contrast checker",
     description:
