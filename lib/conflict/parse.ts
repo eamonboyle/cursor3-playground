@@ -24,10 +24,6 @@ function pushIssue(
   issues.push({ kind, line, message })
 }
 
-export type ParseConflictOptions = {
-  filepath?: string
-}
-
 export function conflictLocation(
   block: ConflictBlock,
   filepath?: string,
@@ -42,10 +38,7 @@ export function conflictLocation(
 /**
  * Parse pasted file content for git merge conflict markers.
  */
-export function parseConflictMarkers(
-  text: string,
-  _options: ParseConflictOptions = {},
-): ConflictParseResult {
+export function parseConflictMarkers(text: string): ConflictParseResult {
   const blocks: ConflictBlock[] = []
   const issues: ConflictIssue[] = []
   const warnings: string[] = []
