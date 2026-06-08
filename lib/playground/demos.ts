@@ -121,6 +121,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/build",
+    title: "Build output lab",
+    description:
+      "Paste pnpm build or next build logs — type errors, missing modules, filter node_modules, copy file:line paths.",
+    kind: "client",
+  },
+  {
     href: "/todo",
     title: "TODO marker lab",
     description:
