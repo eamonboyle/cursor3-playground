@@ -58,6 +58,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/git-status",
+    title: "Git status lab",
+    description:
+      "Paste git status or porcelain output — group staged, unstaged, untracked files, copy paths or git add commands.",
+    kind: "client",
+  },
+  {
     href: "/conflict",
     title: "Merge conflict lab",
     description:
