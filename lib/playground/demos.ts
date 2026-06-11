@@ -107,6 +107,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/deps",
+    title: "Package dependency diff",
+    description:
+      "Compare two package.json files — added, removed, and version bumps with semver hints and copyable pnpm commands.",
+    kind: "client",
+  },
+  {
     href: "/stack",
     title: "Stack trace lab",
     description:
