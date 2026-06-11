@@ -65,6 +65,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/changes",
+    title: "Changed files lab",
+    description:
+      "Paste git diff --name-status or --name-only — group added, modified, deleted, renamed files, filter extensions, copy PR scope.",
+    kind: "client",
+  },
+  {
     href: "/conflict",
     title: "Merge conflict lab",
     description:
