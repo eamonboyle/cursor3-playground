@@ -60,6 +60,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/tsc` | Client | Parse `tsc` / `pnpm typecheck` output — TS codes, file:line paths, node_modules filter |
 | `/eslint` | Client | Parse `eslint` / `pnpm lint` output — rule ids, file:line paths, node_modules filter |
 | `/test` | Client | Parse `pnpm test`, Vitest, or Jest output — failures by file, node_modules filter, copyable paths |
+| `/playwright` | Client | Parse `playwright test` output — failures by browser project, stack frames, node_modules filter, copyable paths |
 | `/build` | Client | Parse `pnpm build` / Next.js output — type errors, module resolution, node_modules filter, copyable paths |
 | `/todo` | Client | Scan ripgrep output for TODO/FIXME/HACK/XXX/BUG markers — counts and copyable paths |
 | `/import` | Client | Relative and `@/` alias import paths between two repo files — refactor helper |
