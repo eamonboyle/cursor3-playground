@@ -163,6 +163,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/grep",
+    title: "Ripgrep hits lab",
+    description:
+      "Paste rg -n or -C output — group hits by file, filter extensions and node_modules, copy file:line paths.",
+    kind: "client",
+  },
+  {
     href: "/import",
     title: "Import path lab",
     description:
