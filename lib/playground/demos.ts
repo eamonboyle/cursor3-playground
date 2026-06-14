@@ -149,6 +149,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/playwright",
+    title: "Playwright output lab",
+    description:
+      "Paste playwright test logs — group failures by browser project, filter node_modules, copy file:line paths.",
+    kind: "client",
+  },
+  {
     href: "/build",
     title: "Build output lab",
     description:
