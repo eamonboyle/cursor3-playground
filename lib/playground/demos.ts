@@ -170,6 +170,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/loc",
+    title: "Line count lab",
+    description:
+      "Paste wc -l or find output — rank files by size, group by extension or folder, copy largest paths for refactor scope.",
+    kind: "client",
+  },
+  {
     href: "/grep",
     title: "Ripgrep hits lab",
     description:

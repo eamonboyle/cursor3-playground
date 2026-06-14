@@ -63,6 +63,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/playwright` | Client | Parse `playwright test` output — failures by browser project, stack frames, node_modules filter, copyable paths |
 | `/build` | Client | Parse `pnpm build` / Next.js output — type errors, module resolution, node_modules filter, copyable paths |
 | `/todo` | Client | Scan ripgrep output for TODO/FIXME/HACK/XXX/BUG markers — counts and copyable paths |
+| `/loc` | Client | Parse `wc -l` / find output — rank files by line count, extension and folder breakdown, copy largest paths |
 | `/grep` | Client | Parse general ripgrep -n or -C output — group by file, extension filter, copyable paths |
 | `/import` | Client | Relative and `@/` alias import paths between two repo files — refactor helper |
 | `/rename` | Client | Apply rename rules to paths, ripgrep lines, or stack frames after moving files |
