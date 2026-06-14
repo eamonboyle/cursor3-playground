@@ -62,6 +62,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/test` | Client | Parse `pnpm test`, Vitest, or Jest output — failures by file, node_modules filter, copyable paths |
 | `/build` | Client | Parse `pnpm build` / Next.js output — type errors, module resolution, node_modules filter, copyable paths |
 | `/todo` | Client | Scan ripgrep output for TODO/FIXME/HACK/XXX/BUG markers — counts and copyable paths |
+| `/loc` | Client | Parse `wc -l` / find output — rank files by line count, extension and folder breakdown, copy largest paths |
 | `/import` | Client | Relative and `@/` alias import paths between two repo files — refactor helper |
 | `/rename` | Client | Apply rename rules to paths, ripgrep lines, or stack frames after moving files |
 | `/whitespace` | Client | Line endings, trailing whitespace, indent style, invisible Unicode in pasted snippets |
