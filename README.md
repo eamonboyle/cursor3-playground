@@ -56,6 +56,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/glob` | Client | Glob include/exclude scope preview over pasted repo paths |
 | `/env` | Client | Diff .env.example vs local env keys — missing, extra, value mismatches |
 | `/deps` | Client | Diff two package.json files — added, removed, version bumps, pnpm install hints |
+| `/outdated` | Client | Parse `pnpm outdated` table or JSON — group patch/minor/major bumps, copy safe `pnpm update` commands |
 | `/stack` | Client | Parse stack traces into file:line frames — filter node_modules, copy paths |
 | `/tsc` | Client | Parse `tsc` / `pnpm typecheck` output — TS codes, file:line paths, node_modules filter |
 | `/eslint` | Client | Parse `eslint` / `pnpm lint` output — rule ids, file:line paths, node_modules filter |

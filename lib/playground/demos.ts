@@ -121,6 +121,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/outdated",
+    title: "Outdated packages lab",
+    description:
+      "Paste pnpm outdated output — group patch, minor, and major bumps, filter dev deps, copy safe pnpm update commands.",
+    kind: "client",
+  },
+  {
     href: "/stack",
     title: "Stack trace lab",
     description:
