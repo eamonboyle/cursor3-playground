@@ -128,6 +128,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/audit",
+    title: "Audit lab",
+    description:
+      "Paste pnpm audit output — group vulnerabilities by severity, filter low/info, copy paths and pnpm audit --fix.",
+    kind: "client",
+  },
+  {
     href: "/stack",
     title: "Stack trace lab",
     description:
