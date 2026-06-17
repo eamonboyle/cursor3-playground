@@ -156,6 +156,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/prettier",
+    title: "Prettier output lab",
+    description:
+      "Paste prettier --check or --list-different output — list unformatted files, filter extensions, copy pnpm exec prettier --write commands.",
+    kind: "client",
+  },
+  {
     href: "/test",
     title: "Test output lab",
     description:
