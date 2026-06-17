@@ -61,6 +61,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/stack` | Client | Parse stack traces into file:line frames — filter node_modules, copy paths |
 | `/tsc` | Client | Parse `tsc` / `pnpm typecheck` output — TS codes, file:line paths, node_modules filter |
 | `/eslint` | Client | Parse `eslint` / `pnpm lint` output — rule ids, file:line paths, node_modules filter |
+| `/prettier` | Client | Parse `prettier --check` / `--list-different` — unformatted files, extension filter, copy fix commands |
 | `/test` | Client | Parse `pnpm test`, Vitest, or Jest output — failures by file, node_modules filter, copyable paths |
 | `/playwright` | Client | Parse `playwright test` output — failures by browser project, stack frames, node_modules filter, copyable paths |
 | `/build` | Client | Parse `pnpm build` / Next.js output — type errors, module resolution, node_modules filter, copyable paths |
