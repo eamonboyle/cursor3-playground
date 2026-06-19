@@ -170,6 +170,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/coverage",
+    title: "Coverage lab",
+    description:
+      "Paste Vitest, Jest, or c8 text coverage tables — rank files by lines %, filter gaps, copy uncovered paths.",
+    kind: "client",
+  },
+  {
     href: "/playwright",
     title: "Playwright output lab",
     description:
