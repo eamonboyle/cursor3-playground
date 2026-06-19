@@ -58,6 +58,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/git-log",
+    title: "Git log lab",
+    description:
+      "Paste git log --oneline or full log output — group conventional commits, detect breaking changes, copy PR release notes.",
+    kind: "client",
+  },
+  {
     href: "/git-status",
     title: "Git status lab",
     description:
