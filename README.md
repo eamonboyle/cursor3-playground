@@ -67,6 +67,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/coverage` | Client | Parse Vitest, Jest, or c8 text coverage tables — rank files by lines %, filter gaps, copy uncovered paths |
 | `/playwright` | Client | Parse `playwright test` output — failures by browser project, stack frames, node_modules filter, copyable paths |
 | `/build` | Client | Parse `pnpm build` / Next.js output — type errors, module resolution, node_modules filter, copyable paths |
+| `/checks` | Client | Parse `gh pr checks`, GitHub Actions summaries, or JSON — group by status, copy failing jobs and rerun hints |
 | `/todo` | Client | Scan ripgrep output for TODO/FIXME/HACK/XXX/BUG markers — counts and copyable paths |
 | `/loc` | Client | Parse `wc -l` / find output — rank files by line count, extension and folder breakdown, copy largest paths |
 | `/grep` | Client | Parse general ripgrep -n or -C output — group by file, extension filter, copyable paths |
