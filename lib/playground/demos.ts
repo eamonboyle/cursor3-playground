@@ -198,6 +198,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/checks",
+    title: "CI checks lab",
+    description:
+      "Paste gh pr checks or GitHub Actions summaries — group pass/fail/pending, copy failing job names and rerun hints.",
+    kind: "client",
+  },
+  {
     href: "/todo",
     title: "TODO marker lab",
     description:
