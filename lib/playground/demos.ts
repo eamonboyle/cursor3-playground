@@ -79,6 +79,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/owners",
+    title: "CODEOWNERS lab",
+    description:
+      "Paste CODEOWNERS and changed paths — last-match owner rules, group by reviewer, copy @mentions for PR requests.",
+    kind: "client",
+  },
+  {
     href: "/conflict",
     title: "Merge conflict lab",
     description:
