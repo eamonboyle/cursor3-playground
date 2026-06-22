@@ -114,6 +114,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/hunks",
+    title: "Diff hunk lab",
+    description:
+      "Paste unified diffs — list @@ hunks with line ranges, +/− per hunk, and copy start:end:filepath citations for Cursor.",
+    kind: "client",
+  },
+  {
     href: "/glob",
     title: "Glob scope lab",
     description:
