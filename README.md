@@ -55,6 +55,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/contrast` | Client | WCAG contrast ratio from hex color pairs |
 | `/json` | Client | JSON validate, format, minify, structure stats |
 | `/patch` | Client | Unified diff stats—files changed, +/− lines, binary flags |
+| `/hunks` | Client | Parse unified diffs into @@ hunks — line ranges, per-hunk +/−, copy start:end:filepath citations |
 | `/glob` | Client | Glob include/exclude scope preview over pasted repo paths |
 | `/env` | Client | Diff .env.example vs local env keys — missing, extra, value mismatches |
 | `/deps` | Client | Diff two package.json files — added, removed, version bumps, pnpm install hints |
