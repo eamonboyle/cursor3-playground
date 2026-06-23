@@ -247,6 +247,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/fuzzy",
+    title: "Fuzzy path lab",
+    description:
+      "Fix misspelled or partial repo paths against a file list — rank closest matches for Cursor citations and imports.",
+    kind: "client",
+  },
+  {
     href: "/whitespace",
     title: "Whitespace lab",
     description:

@@ -74,6 +74,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/grep` | Client | Parse general ripgrep -n or -C output — group by file, extension filter, copyable paths |
 | `/import` | Client | Relative and `@/` alias import paths between two repo files — refactor helper |
 | `/rename` | Client | Apply rename rules to paths, ripgrep lines, or stack frames after moving files |
+| `/fuzzy` | Client | Rank closest repo paths for misspelled or partial paths from agent output, logs, or ripgrep |
 | `/whitespace` | Client | Line endings, trailing whitespace, indent style, invisible Unicode in pasted snippets |
 | `/citation` | Client | Build and scan Cursor `startLine:endLine:filepath` citation fences from ripgrep or line ranges |
 | `/semver` | Client | Compare semver strings, npm ^/~ range checks, sort version lists |
