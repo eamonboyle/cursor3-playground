@@ -72,6 +72,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/stash",
+    title: "Git stash lab",
+    description:
+      "Paste git stash list output — index WIP, branch, and untracked stashes, copy apply, pop, show, or drop commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
