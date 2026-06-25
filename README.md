@@ -49,6 +49,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/commit` | Client | Conventional Commits linter — type, scope, subject length, body wrap |
 | `/git-log` | Client | Parse `git log --oneline` or full log — group by type, breaking changes, copy PR release notes |
 | `/git-status` | Client | Parse `git status` / `--porcelain` — staged, unstaged, untracked groups, copy paths or `git add` |
+| `/stash` | Client | Parse `git stash list` — WIP, branch, untracked entries, copy `git stash apply` / `pop` / `show` / `drop` |
 | `/changes` | Client | Parse `git diff --name-status` / `--name-only` — PR file scope, extension filter, copy paths or PR markdown |
 | `/owners` | Client | Paste CODEOWNERS + changed paths — last-match owner rules, group by reviewer, copy @mentions for PR requests |
 | `/conflict` | Client | Parse git merge conflict markers — block list, ours/theirs sides, Cursor citations |
