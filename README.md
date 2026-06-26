@@ -65,6 +65,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/eslint` | Client | Parse `eslint` / `pnpm lint` output — rule ids, file:line paths, node_modules filter |
 | `/prettier` | Client | Parse `prettier --check` / `--list-different` — unformatted files, extension filter, copy fix commands |
 | `/test` | Client | Parse `pnpm test`, Vitest, or Jest output — failures by file, node_modules filter, copyable paths |
+| `/snapshot` | Client | Parse Jest or Vitest snapshot failures — mismatches, obsolete `.snap` files, diff counts, copy `pnpm test -- -u` |
 | `/coverage` | Client | Parse Vitest, Jest, or c8 text coverage tables — rank files by lines %, filter gaps, copy uncovered paths |
 | `/playwright` | Client | Parse `playwright test` output — failures by browser project, stack frames, node_modules filter, copyable paths |
 | `/build` | Client | Parse `pnpm build` / Next.js output — type errors, module resolution, node_modules filter, copyable paths |

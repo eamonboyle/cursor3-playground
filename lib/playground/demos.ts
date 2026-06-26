@@ -184,6 +184,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/snapshot",
+    title: "Snapshot lab",
+    description:
+      "Paste Jest or Vitest snapshot failures — list mismatches, obsolete .snap files, diff counts, copy pnpm test -- -u.",
+    kind: "client",
+  },
+  {
     href: "/coverage",
     title: "Coverage lab",
     description:
