@@ -261,6 +261,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/context",
+    title: "Context size lab",
+    description:
+      "Estimate token usage for pasted agent context — split by citation fences or file delimiters, rank largest sections, check 8k/32k/128k budgets.",
+    kind: "client",
+  },
+  {
     href: "/semver",
     title: "Semver lab",
     description:
