@@ -76,6 +76,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/rename` | Client | Apply rename rules to paths, ripgrep lines, or stack frames after moving files |
 | `/whitespace` | Client | Line endings, trailing whitespace, indent style, invisible Unicode in pasted snippets |
 | `/citation` | Client | Build and scan Cursor `startLine:endLine:filepath` citation fences from ripgrep or line ranges |
+| `/context` | Client | Estimate token usage for pasted agent context — split by file, rank sections, check model budgets |
 | `/semver` | Client | Compare semver strings, npm ^/~ range checks, sort version lists |
 | `/notes` | Client | Sidebar layout, markdown-ish notes, export `.md` |
 | `/rsvp` | API | `POST /api/rsvp` — in-memory RSVP (resets on cold start) |
