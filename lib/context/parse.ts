@@ -1,10 +1,11 @@
-import { CONTEXT_BUDGET_LIMITS } from "./defaults.ts"
 import type {
   ContextBudget,
   ContextParseResult,
   ContextSection,
   ContextSectionKind,
-} from "./types.ts"
+} from "./types"
+
+export const CONTEXT_BUDGET_LIMITS = [8_000, 32_000, 128_000] as const
 
 const CITATION_FENCE_RE =
   /```(\d+):(\d+):([^\n`]+)\n([\s\S]*?)```/g

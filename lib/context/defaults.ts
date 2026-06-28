@@ -37,5 +37,3 @@ describe("computeStreak", () => {
   })
 })
 `
-
-export const CONTEXT_BUDGET_LIMITS = [8_000, 32_000, 128_000] as const
