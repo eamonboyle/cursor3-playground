@@ -114,6 +114,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/stat",
+    title: "Diff stat lab",
+    description:
+      "Paste git diff --stat or --numstat — rank files by churn, filter extensions, copy PR scope with +/− totals.",
+    kind: "client",
+  },
+  {
     href: "/glob",
     title: "Glob scope lab",
     description:
