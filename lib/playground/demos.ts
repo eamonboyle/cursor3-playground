@@ -247,6 +247,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/routes",
+    title: "App Router lab",
+    description:
+      "Paste app/ file paths — list Next.js pages, API routes, layouts, strip route groups, copy URL paths and route trees.",
+    kind: "client",
+  },
+  {
     href: "/rename",
     title: "Rename map lab",
     description:

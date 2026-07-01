@@ -74,6 +74,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/loc` | Client | Parse `wc -l` / find output — rank files by line count, extension and folder breakdown, copy largest paths |
 | `/grep` | Client | Parse general ripgrep -n or -C output — group by file, extension filter, copyable paths |
 | `/import` | Client | Relative and `@/` alias import paths between two repo files — refactor helper |
+| `/routes` | Client | Parse `app/` file paths — Next.js pages, API routes, layouts, route groups, copy URL paths and trees |
 | `/rename` | Client | Apply rename rules to paths, ripgrep lines, or stack frames after moving files |
 | `/whitespace` | Client | Line endings, trailing whitespace, indent style, invisible Unicode in pasted snippets |
 | `/citation` | Client | Build and scan Cursor `startLine:endLine:filepath` citation fences from ripgrep or line ranges |
