@@ -79,6 +79,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/blame",
+    title: "Git blame lab",
+    description:
+      "Paste git blame -l or --porcelain output — group lines by author, list commit ranges, copy Cursor citation fences.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
