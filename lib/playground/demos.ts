@@ -86,6 +86,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/reflog",
+    title: "Git reflog lab",
+    description:
+      "Paste git reflog output — trace HEAD movements after resets or checkouts, copy git reset --hard HEAD@{n} recovery commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:

@@ -51,6 +51,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/git-status` | Client | Parse `git status` / `--porcelain` — staged, unstaged, untracked groups, copy paths or `git add` |
 | `/stash` | Client | Parse `git stash list` and `git stash show --name-status` — WIP saves, apply/pop commands, file scope |
 | `/blame` | Client | Parse `git blame -l` or `--porcelain` — group lines by author, commit ranges, copy Cursor citation fences |
+| `/reflog` | Client | Parse `git reflog` — trace HEAD movements, filter by operation, copy `git reset --hard HEAD@{n}` recovery commands |
 | `/changes` | Client | Parse `git diff --name-status` / `--name-only` — PR file scope, extension filter, copy paths or PR markdown |
 | `/owners` | Client | Paste CODEOWNERS + changed paths — last-match owner rules, group by reviewer, copy @mentions for PR requests |
 | `/conflict` | Client | Parse git merge conflict markers — block list, ours/theirs sides, Cursor citations |
