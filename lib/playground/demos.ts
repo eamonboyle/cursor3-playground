@@ -93,6 +93,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/branches",
+    title: "Git branches lab",
+    description:
+      "Paste git branch -vv or -a output — list local and remote branches, filter gone upstreams, copy checkout and delete commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
