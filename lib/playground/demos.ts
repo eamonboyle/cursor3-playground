@@ -100,6 +100,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/tags",
+    title: "Git tags lab",
+    description:
+      "Paste git tag, git tag -l -n, or --format output — list releases, filter semver tags, copy checkout, push, and delete commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
