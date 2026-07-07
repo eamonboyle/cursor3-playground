@@ -54,6 +54,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/reflog` | Client | Parse `git reflog` — trace HEAD movements, filter by operation, copy `git reset --hard HEAD@{n}` recovery commands |
 | `/branches` | Client | Parse `git branch -vv` / `-a` — local vs remote, ahead/behind tracking, gone upstreams, copy checkout and delete commands |
 | `/tags` | Client | Parse `git tag` / `-l -n` / `--format` — annotated vs lightweight, semver filter, copy checkout, push, and delete commands |
+| `/describe` | Client | Parse `git describe --tags --long` — exact tag vs commits-since-tag, semver breakdown, copy checkout and describe commands |
 | `/changes` | Client | Parse `git diff --name-status` / `--name-only` — PR file scope, extension filter, copy paths or PR markdown |
 | `/owners` | Client | Paste CODEOWNERS + changed paths — last-match owner rules, group by reviewer, copy @mentions for PR requests |
 | `/conflict` | Client | Parse git merge conflict markers — block list, ours/theirs sides, Cursor citations |

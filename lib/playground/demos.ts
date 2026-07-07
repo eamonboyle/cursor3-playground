@@ -107,6 +107,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/describe",
+    title: "Git describe lab",
+    description:
+      "Paste git describe --tags --long output — split exact tags from tag-N-gHASH lines, copy checkout and describe commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
