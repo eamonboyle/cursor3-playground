@@ -114,6 +114,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/remote",
+    title: "Git remote lab",
+    description:
+      "Paste git remote -v output — group fetch and push URLs, detect HTTPS vs SSH mismatches, copy set-url and prune commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
