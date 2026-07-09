@@ -121,6 +121,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/shortlog",
+    title: "Git shortlog lab",
+    description:
+      "Paste git shortlog -sn or -sne output — rank contributors by commit count, copy release notes and @mentions.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
