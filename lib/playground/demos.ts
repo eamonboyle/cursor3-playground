@@ -128,6 +128,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/worktree",
+    title: "Git worktree lab",
+    description:
+      "Paste git worktree list output — inspect linked checkouts, detect locked or prunable trees, copy remove and prune commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
