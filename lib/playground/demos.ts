@@ -135,6 +135,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/ls-remote",
+    title: "Git ls-remote lab",
+    description:
+      "Paste git ls-remote output — list remote branches and tags, resolve HEAD, copy fetch and checkout commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
