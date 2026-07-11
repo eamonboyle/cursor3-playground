@@ -28,7 +28,7 @@ describe("parseLsRemoteOutput", () => {
     assert.equal(result.summary.peeled, 2)
     assert.equal(result.summary.semverTags, 2)
     assert.equal(result.summary.defaultBranch, "main")
-    assert.equal(result.summary.headHash, "a1b2c3d4e5f6789012345678abcdef0123456789")
+    assert.equal(result.summary.headHash, "e4f5a6b4e5f6789012345678abcdef0123456789")
 
     const main = result.entries.find((entry) => entry.name === "main")
     assert.ok(main)
@@ -40,7 +40,7 @@ describe("parseLsRemoteOutput", () => {
     )
     assert.ok(annotated)
     assert.equal(annotated.isAnnotatedTag, true)
-    assert.equal(annotated.peeledHash, "f0a1b2c3d4e5f6789012345678abcdef0123456789a")
+    assert.equal(annotated.peeledHash, "f0a1b2c3e5f6789012345678abcdef0123456789")
 
     const pull = result.entries.find((entry) => entry.kind === "other")
     assert.ok(pull)
