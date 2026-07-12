@@ -58,6 +58,8 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/remote` | Client | Parse `git remote -v` — group fetch/push URLs, HTTPS vs SSH, fetch/push mismatches, copy set-url and prune commands |
 | `/shortlog` | Client | Parse `git shortlog -sn` / `-sne` — rank contributors by commit count, copy release notes and @mentions |
 | `/worktree` | Client | Parse `git worktree list` — linked checkouts, locked/prunable detection, copy remove and prune commands |
+| `/ls-remote` | Client | Parse `git ls-remote` output — list remote branches and tags, resolve HEAD, copy fetch and checkout commands |
+| `/cherry` | Client | Parse `git cherry -v` output — unique (+) vs patch-equivalent (−) commits, copy show and rebase commands |
 | `/changes` | Client | Parse `git diff --name-status` / `--name-only` — PR file scope, extension filter, copy paths or PR markdown |
 | `/owners` | Client | Paste CODEOWNERS + changed paths — last-match owner rules, group by reviewer, copy @mentions for PR requests |
 | `/conflict` | Client | Parse git merge conflict markers — block list, ours/theirs sides, Cursor citations |

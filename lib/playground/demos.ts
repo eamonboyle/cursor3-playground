@@ -142,6 +142,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/cherry",
+    title: "Git cherry lab",
+    description:
+      "Paste git cherry -v output — list commits unique to your branch vs patch-equivalent upstream, copy show and rebase commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
