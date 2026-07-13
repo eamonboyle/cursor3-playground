@@ -88,6 +88,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/import` | Client | Relative and `@/` alias import paths between two repo files — refactor helper |
 | `/routes` | Client | Parse `app/` file paths — Next.js pages, API routes, layouts, route groups, copy URL paths and trees |
 | `/rename` | Client | Apply rename rules to paths, ripgrep lines, or stack frames after moving files |
+| `/fuzzy` | Client | Rank closest repo paths for misspelled or partial paths from agent output, logs, or ripgrep |
 | `/whitespace` | Client | Line endings, trailing whitespace, indent style, invisible Unicode in pasted snippets |
 | `/citation` | Client | Build and scan Cursor `startLine:endLine:filepath` citation fences from ripgrep or line ranges |
 | `/context` | Client | Estimate agent context tokens — split citation fences or `--- path ---` headers, rank sections, 8k/32k/128k budgets |
