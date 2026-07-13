@@ -60,6 +60,7 @@ Each route is a small app under `app/<name>/` with colocated UI in `components/<
 | `/worktree` | Client | Parse `git worktree list` — linked checkouts, locked/prunable detection, copy remove and prune commands |
 | `/ls-remote` | Client | Parse `git ls-remote` output — list remote branches and tags, resolve HEAD, copy fetch and checkout commands |
 | `/cherry` | Client | Parse `git cherry -v` output — unique (+) vs patch-equivalent (−) commits, copy show and rebase commands |
+| `/range-diff` | Client | Parse `git range-diff` output — compare rebased commit ranges, spot added/removed/modified commits, copy show commands |
 | `/changes` | Client | Parse `git diff --name-status` / `--name-only` — PR file scope, extension filter, copy paths or PR markdown |
 | `/owners` | Client | Paste CODEOWNERS + changed paths — last-match owner rules, group by reviewer, copy @mentions for PR requests |
 | `/conflict` | Client | Parse git merge conflict markers — block list, ours/theirs sides, Cursor citations |

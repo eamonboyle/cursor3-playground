@@ -149,6 +149,13 @@ export const PLAYGROUND_DEMOS: PlaygroundDemo[] = [
     kind: "client",
   },
   {
+    href: "/range-diff",
+    title: "Git range-diff lab",
+    description:
+      "Paste git range-diff output — compare rebased commit ranges, spot added/removed/modified commits, copy show commands.",
+    kind: "client",
+  },
+  {
     href: "/changes",
     title: "Changed files lab",
     description:
